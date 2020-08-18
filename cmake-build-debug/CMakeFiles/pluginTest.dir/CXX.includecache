@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CLionProjects/pluginTest/abstract_processor.h
+
+D:/CLionProjects/pluginTest/library.h
+string
+-
+
+D:/CLionProjects/pluginTest/main.cpp
+iostream
+-
+memory
+-
+plugin_manager.h
+D:/CLionProjects/pluginTest/plugin_manager.h
+
+D:/CLionProjects/pluginTest/plugin.h
+abstract_processor.h
+D:/CLionProjects/pluginTest/abstract_processor.h
+
+D:/CLionProjects/pluginTest/plugin_manager.h
+string
+-
+plugin.h
+D:/CLionProjects/pluginTest/plugin.h
+library.h
+D:/CLionProjects/pluginTest/library.h
+
